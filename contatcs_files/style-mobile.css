@@ -1,0 +1,163 @@
+.switcher { display:none; }
+@media (max-width: 1250px) {
+	body { min-width:320px; }
+	.switcher { display:inline-block; }
+	.view-services .views-row { padding:0; }
+	.view-solution .views-row { padding:0; }
+	.indent-top { padding-top:0; }
+	.view-testimonials .flexslider { padding-bottom:30px; }
+}
+@media (max-width: 995px) {
+	.page-page-404 .panel-col-first { font-size:160px; }
+	.stickup {
+		box-shadow:none !important;
+		position:static !important;
+	}
+	.pseudoStickyBlock {
+		display:none !important;
+		height:0 !important;
+	}
+	#backtotop { display:none !important; }
+	#superfish-1 { padding:0; }
+	#superfish-1 > li > a { padding:33px 20px 35px; }
+	h2 { font:400 34px/34px 'Archivo Black', sans-serif; }
+	h3, #block-tm-follow-user h2 { font:400 30px/30px 'Archivo Black', sans-serif; }
+	h4 { font:400 24px/24px 'Archivo Black', sans-serif; }
+	.view-services .views-row .services-wrap { height:170px; }
+	.view-services .views-row .counter {
+		padding-top:20px;
+		font-size:30px;
+		line-height:30px;
+	}
+	.view-services .views-row h5 { font-size:18px; }
+	.block-copyright .sitename {
+		font-size:40px;
+		line-height:40px;
+	}
+	#superfish-1 > li ul { top:88px; }
+	#superfish-1 > li > a .sf-sub-indicator { bottom:20px; }
+}
+@media (max-width: 767px) {
+	#superfish-1 { display:none; }
+	.select-menu {
+		display:block !important;
+		width:100%;
+	}
+	.comment-wrapper { overflow:visible; }
+	.user-picture { margin-bottom:12px; }
+	.views-field-field-portfolio-image { pointer-events:none; }
+	.panel-2col .panel-col-first, .panel-2col .panel-col-last {
+		float:none;
+		width:100%;
+	}
+	.panel-2col .panel-col-first .inside, .panel-2col .panel-col-last .inside { margin:0; }
+	.page-page-404 .panel-col-first {
+		font-size:170px;
+		line-height:170px;
+		text-align:center;
+	}
+	.filter-help {
+		float:none;
+		margin-bottom:15px;
+		padding-top:0;
+	}
+	.mobile-two-column .views-row {
+		float:left !important;
+		width:46% !important;
+		margin-right:4% !important;
+	}
+	.mobile-two-column .views-row.even { margin-right:0 !important; }
+	.mobile-two-column .views-row.odd { clear:left; }
+	#flexslider-1 .flex-caption {
+		position:static;
+		width:auto;
+	}
+	.contact-form .form-type-textfield {
+		float:none;
+		margin-left:0;
+		width:100%;
+	}
+	.header-section-2 { padding:20px 0; }
+	.view-solution .views-field-field-solution-image {
+		max-width:60%;
+		display:inline-block;
+	}
+	.view-services .views-row .services-wrap {
+		width:170px;
+		display:inline-block;
+	}
+	.view-testimonials .flexslider .views-field-field-testi-image {
+		float:none;
+		margin:0;
+	}
+	.site-name {
+		font-size:60px;
+		line-height:60px;
+		letter-spacing:-3px;
+	}
+	.header-section-1 { margin-top:-100px; }
+	.view-slider {
+		position:relative;
+		overflow:hidden;
+	}
+	.view-slider .flexslider {
+		position:relative;
+		width:800px;
+		left:50%;
+		margin-left:-400px;
+	}
+	.img-left {
+		float:none;
+		max-width:none;
+		margin:0 0 20px;
+	}
+	.views-row { margin-bottom:30px !important; }
+	.views-row.omega { margin-bottom:30px !important; }
+}
+@media (max-width: 479px) {
+	.node-teaser .field-type-file, .node-teaser .field-type-image, .node-employee .field-type-image {
+		float:none;
+		margin:0 0 20px;
+		max-width:inherit;
+		width:auto;
+	}
+	#isotope-options #filters li {
+		display:block;
+		margin:0 0 10px;
+	}
+	.node-submitted ul.submitted-list li {
+		float:none;
+		margin:0;
+		padding:3px 0;
+		border-bottom:1px solid #e4e4e4;
+	}
+	#comments .comment .comment-wrapper { overflow:visible; }
+	#comments .indented { margin-left:0; }
+	.page-tracker #main-wrapper .content { overflow-x:scroll; }
+	.page-tracker #main-wrapper .content table.sticky-header { display:none !important; }
+	.page-forum #forum { overflow-x:scroll; }
+	.page-forum #forum td.forum .icon {
+		float:none;
+		margin:0 0 5px;
+	}
+	.field-name-field-testi-image {
+		float:none;
+		margin:0 0 20px;
+		max-width:inherit;
+	}
+	.mobile-two-column .views-row {
+		float:none;
+		width:100% !important;
+		margin-right:0 !important;
+	}
+	.view-mission .views-row .views-field-field-mission-image {
+		float:none;
+		max-width:none;
+		margin:0 0 20px;
+	}
+	.img-left-2 {
+		float:none;
+		max-width:none;
+		margin:0 0 20px;
+	}
+}
